@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">Musical-Player-App</string>
+    <string name="app_name">MusicalApp</string>
+    <string name="search">Search</string>
+    <string name="toast_demo">This is a demo.\nOnly first item is working.</string>
+    <string name="error_play_store">Could not open Play Store.</string>
+    <string name="files_locally">Local Files</string>
+
+    <!-- Buttons -->
+    <string name="button_now">Now Playing</string>
+    <string name="button_library">My music</string>
+    <string name="button_search">Search Music</string>
+    <string name="button_buy">Buy Music</string>
+
+    <!-- Explain Activities -->
+    <string name="main_activity">This is the Main Activity, here the user will select the diferents options of the app.</string>
+    <string name="now_playing_activity">This is the Now Playing Activity, here we can implement the MediaPlayer Class. \nIf an track is playing show the current info, if not, show a recently played song list.</string>
+    <string name="my_music_activity">This is the My Music Activity.Show a list of all media files in my phone, should implement a ListView and may be use the MediaStore.Audio Class. Also we can implement a SearchActivity from the action bar. When a file is tapped, go to Playing Now Activity and start playing the file. For demo only the first item is working.</string>
+    <string name="buy_music_activity">This is the Buy Music Activity. I implement an implicit intent for search the music on Play Store.</string>
+
+    <!-- Now Playing-->
+    <string name="artist_name">Bruno Mars</string>
+    <string name="album_name">XXIV Magic</string>
+    <string name="track_name">24K Magic</string>
+
+    <!-- My Music -->
+    <string name="artist_name1">Bruno Mars</string>
+    <string name="track_name1">24K Magic</string>
+
+    <string name="artist_name2">Katy Perry</string>
+    <string name="track_name2">Roar</string>
+
+    <string name="artist_name3">Mark Ronson</string>
+    <string name="track_name3">Uptown Funk</string>
+
+    <string name="artist_name4">Maroon 5</string>
+    <string name="track_name4">Maps</string>
+
+    <!-- Buy Music -->
+    <string name="hint">Artist or Title</string>
+
+
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.musical_player_app">
+    package="josemarq.musicalapp">
 
     <application
         android:allowBackup="true"
@@ -17,16 +17,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".nowPlayingActivity"
-                  android:label="@string/button_now"
-                  android:parentActivityName=".MainActivity">
+            android:label="@string/button_now"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity android:name=".myMusicActivity"
-                  android:label="@string/button_library"
-                  android:parentActivityName=".MainActivity">
+            android:label="@string/button_library"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity android:name=".buyMusicActivity"
-                  android:label="@string/button_buy"
-                  android:parentActivityName=".MainActivity">
+            android:label="@string/button_buy"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 
