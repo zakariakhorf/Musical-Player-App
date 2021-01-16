@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class nowPlayingActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_now_playing);
-    }
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_now_playing);
+	}
 }
