@@ -17,11 +17,11 @@ public class myMusicActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_my_music);
 		ListView listView = (ListView) findViewById(R.id.listview);
 		ArrayList<music> songs = new ArrayList<music>();
-		songs.add(new music("Bruno Mars", "24k Magic"));
-		songs.add(new music("Eminem", "Moms spaghetti"));
-		songs.add(new music("Cardi B", "No song "));
-		songs.add(new music("Micheal jackson", "Blue jean "));
-		songs.add(new music("Marshmallow", "Happier"));
+		songs.add(new music(getString(R.string.track_name1), getString(R.string.artist_name1)));
+		songs.add(new music(getString(R.string.track_name2), getString(R.string.artist_name2)));
+		songs.add(new music(getString(R.string.track_name3), getString(R.string.artist_name3)));
+		songs.add(new music(getString(R.string.track_name4), getString(R.string.artist_name4)));
+		songs.add(new music(getString(R.string.track_name5), getString(R.string.artist_name5)));
 
 		musicAdapter adapter = new musicAdapter(songs, getApplicationContext());
 

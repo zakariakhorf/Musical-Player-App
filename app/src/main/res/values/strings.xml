@@ -35,6 +35,16 @@
     <string name="artist_name4">Maroon 5</string>
     <string name="track_name4">Maps</string>
 
+    <string name="artist_name5">Mark Ronson</string>
+    <string name="track_name5">Uptown Funk</string>
+
+    <string name="artist_name6">Mark Ronson</string>
+    <string name="track_name6">Uptown Funk</string>
+
+    <string name="artist_name7">Mark Ronson</string>
+    <string name="track_name7">Uptown Funk</string>
+
+
     <!-- Buy Music -->
     <string name="hint">Artist or Title</string>
 
